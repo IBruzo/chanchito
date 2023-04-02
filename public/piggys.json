@@ -1,0 +1,52 @@
+[
+    {
+        "piggyOwner": "Jose",
+        "currentAmount": 1000,
+        "goalAmount": 8500,
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Carlos",
+        "currentAmount": 6000,
+        "goalAmount": 9000,
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Harry",
+        "currentAmount": 4000,
+        "goalAmount": 3000, 
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Potter",
+        "currentAmount": 7900,
+        "goalAmount": 8500, 
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Mario",
+        "currentAmount": 69,
+        "goalAmount": 420,
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    }
+]
