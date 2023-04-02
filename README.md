@@ -10,7 +10,7 @@ Integrantes:
 
 ## Vercel
 
-El proyecto esta deployado en vercel en el siguiente [link]().
+El proyecto esta deployado en vercel en el siguiente [link](chanchito.vercel.app/home).
 
 ## Getting Started
 
