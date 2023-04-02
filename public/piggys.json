@@ -1,2 +1,19 @@
 [
+    {
+        "piggyOwner": "Juan",
+        "currentAmount": 10000,
+        "goalAmount": 20000,
+        "operations": [
+            {
+                "name": "Juan",
+                "amount": -1000,
+                "date": "XX/XX/20XX"
+            },
+            {
+                "name": "Juan",
+                "amount": 11000,
+                "date": "XX/XX/20XX"
+            }
+        ]
+    }
 ]
