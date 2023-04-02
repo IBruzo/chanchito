@@ -25,7 +25,7 @@ function InfoBox({piggyOwner, currAmount, goalAmount, bgColor}) {
       </Link>
     );
 }
-
+ 
 const Home = () => {
 
   const [piggyList, setPiggyList] = useState([]);
@@ -46,9 +46,32 @@ const Home = () => {
 
 
     return(
-        <VStack spacing={4} h='100vh' bgGradient="linear(45deg, cyan.100, cyan.500)">
+        <>
+          <VStack spacing={4} h='200vh' bgGradient="linear(45deg, cyan.100, cyan.500)">
+            <Box width='full'><Link href='/home' textAlign='right' textColor='white'>Estas conectado como: Juan A.</Link></Box>
+            <Heading 
+              textColor="white"
+              padding={5} 
+            >
+              Chanchito
+              <Text fontSize={12} textAlign='center'>Controla tu control!</Text>
+            </Heading>
+              
+            
             {piggyList}
-        </VStack>
+            <Button
+              size="lg"
+              position="fixed"
+              bottom="20px"
+              right="20px"
+              backgroundColor="blue.400"
+              color="white"
+              _hover={{ backgroundColor: 'blue.500' }}
+            >
+              Crea un Chanchito!
+            </Button>
+          </VStack>
+        </>
 
     )
 }
