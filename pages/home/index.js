@@ -60,7 +60,7 @@ const Home = () => {
 
     return(
         <>
-          <VStack spacing={4} h='200vh' bgGradient="linear(45deg, cyan.100, cyan.500)">
+          <VStack spacing={4} h='full' bgGradient="linear(45deg, cyan.100, cyan.500)">
             <Box width='full'><Link href='/home' textAlign='right' textColor='white'>Estas conectado como: Juan A.</Link></Box>
             <Heading 
               textColor="white"

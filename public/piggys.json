@@ -6,6 +6,12 @@
         "operations": [
             {"name": "Jose",
              "amount": 1000,
+             "date": "XX/XX/20XX"},
+             {"name": "Josefina",
+             "amount": 2000,
+             "date": "XX/XX/20XX"},
+             {"name": "Joseson",
+             "amount": 3000,
              "date": "XX/XX/20XX"}
         ]
     },
@@ -40,7 +46,27 @@
         ]
     },
     {
-        "piggyOwner": "Mario",
+        "piggyOwner": "tu viejo",
+        "currentAmount": 69,
+        "goalAmount": 420,
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Peppino Pizza",
+        "currentAmount": 69,
+        "goalAmount": 420,
+        "operations": [
+            {"name": "Jose",
+             "amount": 1000,
+             "date": "XX/XX/20XX"}
+        ]
+    },
+    {
+        "piggyOwner": "Raul",
         "currentAmount": 69,
         "goalAmount": 420,
         "operations": [
