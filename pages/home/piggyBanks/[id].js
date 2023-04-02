@@ -21,20 +21,6 @@ export async function getServerSideProps({ params }) {
   };
 }
 
-export async function getNewData({ params }) {
-
-  return {
-  <!-- Basic HTML Form -->
-  <form action="../../../public/piggys.json" method="post">
-    <label for="first">First name:</label>
-    <input type="text" id="first" name="first" />
-    <label for="last">Last name:</label>
-    <input type="text" id="last" name="last" />
-    <button type="submit">Submit</button>
-  </form>
-  }
-}
-
 export default function Page({ data }) {
   var percentage =
     Math.floor((data.currentAmount / data.goalAmount) * 10000) / 100;
